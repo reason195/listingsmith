@@ -263,7 +263,7 @@ $("propForm").addEventListener("submit", async (ev) => {
   const notice = $("freeNotice");
   if (count > 1) {
     notice.hidden = false;
-    notice.textContent = `Heads-up: the Free plan includes 1 complete listing. Pro ($19/month, unlimited) is coming soon — in this MVP build you can keep generating.`;
+    notice.textContent = `Heads-up: the Free plan includes 1 complete listing. Pro ($19/month, unlimited) is available below — in this MVP build you can keep generating.`;
   } else {
     notice.hidden = true;
   }
